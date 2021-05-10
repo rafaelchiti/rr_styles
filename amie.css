@@ -1,0 +1,121 @@
+@import url("https://linuz90.github.io/better-roam-research/light.css");
+
+:root {
+  --accent-color: rgba(246, 166, 166, 0.99);
+}
+
+body {
+  font-family: Inter, system-ui, -apple-system, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.roam-main {
+  padding-bottom: 20px;
+}
+
+.roam-body,
+.roam-topbar,
+#right-sidebar,
+.roam-sidebar-container {
+  background-color: #eeeef2 !important;
+}
+
+.roam-body-main {
+  box-shadow: 0 2px 8px rgb(0 0 0 / 5%) !important;
+  margin-right: 18px;
+  margin-left: 18px;
+  background-color: white;
+  border-radius: 24px;
+
+  color: rgb(147, 148, 150) !important;
+}
+
+/*
+h1,h2,h3,h4,h5,h6 {
+  color: #37352F !important;
+}
+*/
+
+h1 {
+  color: rgba(246, 166, 166, 0.99) !important;
+}
+
+.roam-sidebar-container .log-button .icon {
+  color: #939496 !important;
+}
+
+.roam-sidebar-container .log-button {
+  color: #dbd9db;
+}
+.roam-body
+  .roam-app
+  .roam-sidebar-container
+  .roam-sidebar-content
+  .log-button:hover {
+  background-color: transparent;
+  color: #dbd9db;
+}
+
+.block-highlight-blue {
+  background-color: rgba(246, 166, 166, 0.99);
+  color: rgb(39, 41, 45);
+}
+
+.rm-bullet {
+  opacity: 0.1;
+}
+.rm-bullet:hover {
+  opacity: 0.6;
+}
+.rm-bullet--closed {
+  opacity: 0.6;
+}
+
+a {
+  color: #757470 !important;
+  border-bottom: 1px solid #d2d2d1;
+  text-decoration: none;
+}
+a:hover {
+  color: #37352f;
+  border-bottom: 1px solid #37352f;
+  background-color: rgba(1, 1, 1, 0.04);
+  text-decoration: none !important;
+}
+
+/*
+.rm-page-ref-link-color {
+  color: #3C3A35;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid #D2D2D1;
+}
+.rm-page-ref-link-color:hover {
+  color: #37352F;
+  text-decoration: none;
+  border-bottom: 1px solid #37352F;
+  background-color: rgba(1,1,1,.04)
+}
+
+.rm-page-ref {
+  border-radius: 0px !important;
+  color: #757470 !important;
+}
+*/
+
+/* This is for the linked references section */
+/*
+.rm-ref-page-view-title span {
+  text-decoration: none !important;
+}
+*/
+
+/* ----- */
+/* Brackets */
+.rm-page-ref__brackets {
+  opacity: 0.4;
+}
+
+.rm-multibar {
+  opacity: 0.3;
+}
