@@ -118,3 +118,7 @@ a:hover {
 .rm-multibar {
   opacity: 0.3;
 }
+
+.rm-hr {
+  opacity: .1;
+}
