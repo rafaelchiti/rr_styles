@@ -57,7 +57,8 @@ h1 {
 }
 
 .block-highlight-blue {
-  background-color: rgba(246, 166, 166, 0.99);
+  background-color: rgb(246 166 166 / 15%) !important;
+  border-radius: 6px;
   color: rgb(39, 41, 45);
 }
 
